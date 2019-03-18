@@ -11,10 +11,38 @@
     <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
     <!-- custom -->
     <link rel="stylesheet" href="scss/style.css">
+
 </head>
 <body>
+    <div class="b-video">
+            <div class="b-video__photo"></div>
+            <div class="b-video__name">
+
+            </div>
+            <div class="b-video__date"></div>
+    </div>
     <header class="header">
         <div class="container">
+                <a href="#test-popup" class="open-popup-link menu-hidden nav-ul-button">
+                        <p class="header-menu">Menu</p>
+                    </a>
+                    <div id="test-popup" class="white-popup mfp-hide">
+                        <a href="#services" class="header-link_hidden">
+                            Услуги
+                        </a>
+                        <a href="#album" class="header-link_hidden">
+                            Портфолио
+                        </a>
+                        <a href="#about" class="header-link_hidden">
+                            Обо мне
+                        </a>
+                        <a href="#footer" class="header-link_hidden">
+                            Контакты
+                        </a>
+                        <a href="#communication" class="header-link_hidden">
+                            <p>Вопросы</p>
+                        </a>
+                    </div>
                 <nav class="header-nav nav navbar">
                         <a href="">Услуги</a>
                         <a href="">Портфолио</a>
@@ -150,6 +178,39 @@
                         <p class="photo_secondary-text">03/06/18</p>
                     </div>
             </div>
+            <!-- hidden gallery -->
+            <div class="video-content  photo-content photo-content_hidden">
+                    <div class="video-wrapper photo-wrapper">
+                        <a href="img/gallery/Re1.png"><img src="img/gallery/Re1.png" alt="photo"></a>
+                        <p class="photo_main-text">Николай & Виктория</p>
+                        <p class="photo_secondary-text">03/06/18</p>
+                    </div>
+                    <div class="video-wrapper photo-wrapper">
+                        <a href="img/gallery/Re2.png"><img src="img/gallery/Re2.png" alt="photo"></a> 
+                        <p class="photo_main-text">Николай & Виктория</p>
+                        <p class="photo_secondary-text">03/06/18</p>
+                    </div>
+                    <div class="video-wrapper photo-wrapper">
+                        <a href="img/gallery/Re3.png"> <img src="img/gallery/Re3.png" alt="photo"></a>
+                        <p class="photo_main-text">Николай & Виктория</p>
+                        <p class="photo_secondary-text">03/06/18</p>
+                    </div>
+                    <div class="video-wrapper photo-wrapper">
+                        <a href="img/gallery/Re4.png"><img src="img/gallery/Re4.png" alt="photo"></a>
+                        <p class="photo_main-text">Николай & Виктория</p>
+                        <p class="photo_secondary-text">03/06/18</p>
+                    </div>
+                    <div class="video-wrapper photo-wrapper">
+                        <a href="img/gallery/Re5.png"><img src="img/gallery/Re5.png" alt="photo"></a>
+                        <p class="photo_main-text">Николай & Виктория</p>
+                        <p class="photo_secondary-text">03/06/18</p>
+                    </div>
+                    <div class="video-wrapper photo-wrapper">
+                        <a href="img/gallery/Re6.png"><img src="img/gallery/Re6.png" alt="photo"></a>
+                        <p class="photo_main-text">Николай & Виктория</p>
+                        <p class="photo_secondary-text">03/06/18</p>
+                    </div>
+            </div>
            <div class="gallery-btn-handler">
             <button class="offer_btn video_btn gallery_btn">Смотреть все альбомы</button>
            </div>
@@ -160,30 +221,53 @@
             <div class="container video-container">
                 <h2 class="offer-main_header video_main-header">Видео отзывы</h2>
                 <div class="video-content">
-                        <div class="video-container">
+                        <div class="video-container video_container">
                             <div class="video-wrapper">
                                     <a class="popup-youtube" href="https://www.youtube.com/watch?v=QH2-TGUlwu4"><img src="img/video/video-1.png" alt="wedding"></a>
-                                    <p class="video-container_main-text">Николай & Виктория</p>
-                                    <p class="video-container_secondary-text">03/06/18</p>
+                                    <p class="video_container_main-text">Николай & Виктория</p>
+                                    <p class="video_container_secondary-text">03/06/18</p>
                             </div>
                         </div>
-                        <div class="video-container">
+                        <div class="video-container video_container">
                                 <div class="video-wrapper">
                                         <a class="popup-youtube" href="https://www.youtube.com/watch?v=QH2-TGUlwu4"><img src="img/video/video-2.png" alt="wedding"></a>
-                                        <p class="video-container_main-text">Сергей и Алёна</p>
-                                        <p class="video-container_secondary-text">03/06/18</p>
+                                        <p class="video_container_main-text">Сергей и Алёна</p>
+                                        <p class="video_container_secondary-text">03/06/18</p>
                                 </div>
                         </div>
-                        <div class="video-container">
+                        <div class="video-container video_container">
                             <div class="video-wrapper">
                                 <a class="popup-youtube" href="https://www.youtube.com/watch?v=QH2-TGUlwu4"><img src="img/video/video-3.png" alt="wedding"></a>
-                                <p class="video-container_main-text">Александр & Светалана</p>
-                                <p class="video-container_secondary-text">03/06/18</p>
+                                <p class="video_container_main-text">Александр & Светалана</p>
+                                <p class="video_container_secondary-text">03/06/18</p>
                             </div>  
-                        </div>    
+                        </div>
+                </div>
+                <div class="video-content video-hidden true">
+                        <div class="video-container video_container">
+                            <div class="video-wrapper">
+                                    <a class="popup-youtube" href="https://www.youtube.com/watch?v=QH2-TGUlwu4"><img src="img/video/video-1.png" alt="wedding"></a>
+                                    <p class="video_container_main-text">Николай & Виктория</p>
+                                    <p class="video_container_secondary-text">03/06/18</p>
+                            </div>
+                        </div>
+                        <div class="video-container video_container">
+                                <div class="video-wrapper">
+                                        <a class="popup-youtube" href="https://www.youtube.com/watch?v=QH2-TGUlwu4"><img src="img/video/video-2.png" alt="wedding"></a>
+                                        <p class="video_container_main-text">Сергей и Алёна</p>
+                                        <p class="video_container_secondary-text">03/06/18</p>
+                                </div>
+                        </div>
+                        <div class="video-container video_container">
+                            <div class="video-wrapper">
+                                <a class="popup-youtube" href="https://www.youtube.com/watch?v=QH2-TGUlwu4"><img src="img/video/video-3.png" alt="wedding"></a>
+                                <p class="video_container_main-text">Александр & Светалана</p>
+                                <p class="video_container_secondary-text">03/06/18</p>
+                            </div>  
+                        </div>
                 </div>
                      <div class="button-handler">
-                            <button class="offer_btn video_btn">Смотреть все видео</button>
+                            <button id="video-button" class="offer_btn video-button video-button_hidden video_btn d-f">Смотреть все видео</button>
                      </div>
             </div>
         </section>
@@ -228,7 +312,7 @@
             <h2 class="offer-main_header">Предлагаю пообщаться</h2>
            <div class="call">
                     <div class="wrapper wrapper-offer photo-wrapper">
-                        <a href="img/offer/offer.png"><img src="img/offer/offer.png" alt="photo"></a>
+                        <a class="offer_img" href="img/offer/offer.png"><img src="img/offer/offer.png" alt="photo"></a>
                     </div>
                     <!-- Text call -->
                     <div class="call-list">
@@ -292,5 +376,6 @@
     <!-- Custom menu -->
 
     <script type="text/javascript" src="js/app.js"></script>
+    <!-- <script src="js/app2.js"></script> -->
 </body>
 </html>
